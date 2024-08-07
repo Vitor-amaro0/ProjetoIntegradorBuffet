@@ -9,28 +9,15 @@ body{
     background-color: #6E32A6;
     font-size: 30px;
     
-    
 }
 
 h1{
     margin:0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .Submenus{
     font-size:20px;
-}
-
-.centralizar{
-    text-align: center;
-}
-
-div{
-    margin-left: 15px;
-}
-
-.button-space{
-    margin-right: 40px;
 }
 
 button{
@@ -41,21 +28,30 @@ button{
     
 }
 
-.input-text{
-    width: 500px;
+.button-space{
+    margin-right: 40px;
 }
 
-.input-short{
-    width: 70px;
+span{
+    margin-right:20px;
 }
- 
-input{
-    border:none;
-    border-radius: 10px;
-}
- 
-p{
-    border:none;
+
+button:hover{
     
+    cursor: pointer;
+    transition:0.3s;
+    
+    
+}
 
+
+
+.button-no:hover{
+    background-color: #d1cfcf;
+    
+}
+
+.button-yes:hover{
+    background-color: #d1cfcf;
+   
 }
