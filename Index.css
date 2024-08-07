@@ -20,3 +20,9 @@ float: right;
     border-radius: 25px;
     cursor: pointer;
 }
+
+
+.gif-container {
+    border: 10px solid #6E32A6; /* Ajustar a largura e a cor conforme necessário */
+    border-radius: 10px; /* Arredondar as bordas do contêiner */
+  }
