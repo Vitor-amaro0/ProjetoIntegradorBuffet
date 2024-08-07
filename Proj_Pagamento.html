@@ -4,54 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./proj_pagamento.css">
+
 </head>
 <body>
     <!-- Pagina de pagamento-->
-     <h1>Escolha sua forma de pagamento!</h1>
+     <h1 class="Titulo">Escolha sua forma de pagamento!</h1>
 
      <form action="./Pagamento_Parabéns.html">
 
-        <p><strong>Escolha o Cartão</strong></p>
+        <p class="cartão" ><strong >Escolha o Cartão</strong></p>
 
-       <select>
-           <option> Visa </option> 
-            <option> Mastercard</option>
-            <option> Elo </option>
-       </select>
+        <select >
+            <option> Visa </option> 
+             <option> Mastercard</option>
+             <option> Elo </option>
+             <option>Nupay</option>
+        </select>
 
-        <br/><br/>
+        <p class="pix"><strong>Pix:</strong></p>
 
-        <a>CPF/CNPJ: </a>
+        <button>Gerar QRCode</button>
+
+       <div>
+
+        <p class="espaço">CPF/CNPJ: </p>
         <input type="text" minlength="3" required>
 
-        <br/><br/>
-
-        <a> Nome do Cartão:</a>
+        <p class="espaço"> Nome do Cartão:</p>
         <input type="text" minlength="2" required>
 
-        <br/><br/>
-
-        <a>Número do Cartão: </a>
+        <p class="espaço">Número do Cartão: </p>
         <input type="text" minlength="2" required>
 
-        <br/><br/>
-
-        <a> Validade(MM/AAAA):</a>
+        <p class="espaço"> Validade(MM/AAAA):</p>
         <input type="date" required>
 
-        <br/><br/>
+        <p class="espaço"> Código(CVV):</p>
+        <input  type="text" minlength="2" required>
 
-        <a> Código(CVV):</a>
-        <input type="text" minlength="2" required>
+       </div>
 
-        <br/><br/>
+        <button class="voltar"> Voltar </button>
+    
+        <button class="efetuarPagamento">Efetuar pagamento</button>
 
-        <button>Efetuar pagamento</button>
-
-     </form>
-    <form>
-        <button> Voltar </button>
     </form>
+    
      </body>
          
 
