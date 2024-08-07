@@ -24,4 +24,21 @@ div{
     margin-top: 25px;
     font-size: 12px;
 }
+
+.espaco{
+    margin-bottom: 0px;
+}
     
+.letramenor{
+    font-size: 11px;
+}
+
+.button{
+    cursor: pointer;
+    background:#6E32A6;
+    color: #F5F5F5;;
+    border: none;
+    font-size: 17px;
+}
+
+
