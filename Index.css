@@ -15,3 +15,8 @@ float: right;
 .logo{
     float: left;
 }
+
+.borda{
+    border-radius: 25px;
+    cursor: pointer;
+}
