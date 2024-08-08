@@ -26,3 +26,13 @@ float: right;
     border: 10px solid #6E32A6; /* Ajustar a largura e a cor conforme necessário */
     border-radius: 30px; /* Arredondar as bordas do contêiner */
   }
+
+  body{
+    background-color: #f5f5f5;
+  }
+
+  .distanciaigual
+{
+    display: flex;
+    justify-content: space-around;
+}
