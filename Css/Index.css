@@ -31,8 +31,7 @@ float: right;
     background-color: #f5f5f5;
   }
 
-  .distanciaigual
-{
+  .distanciaigual{
     display: flex;
     justify-content: space-around;
 }
