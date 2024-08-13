@@ -12,10 +12,10 @@
 
     <div >
     <h1  class="menu"><strong><img class="logo" src="https://placehold.co/300x200" width="50px"> Nome do Buffet</strong> <button class="botao"> <a href="login.html"><img src="Imagens/user.png" width="50px"></a></button>  
-        <button class="botao"> <a href="Carrinho_projeto.html"><img src="./Imagens/carrinhowhite.pg.png" width="50px"></a></button>
+        <button class="botao"> <a href="#"><img  src="./Imagens/carrinhowhite.pg.png" onclick="add_carrinho()" width="50px"></a> <span  class="menu" id="numero_do_contador">0</span> </button> 
         <button class="botao"> <a href="Agendamento.html"><img src="./Imagens/calendario.png " width="50px"></a></button>
-    
-    </h1>
+       
+        </h1>
     
 
     </div>
@@ -48,7 +48,22 @@
     </div>
 
 
+    <script>
+        let contador = 0;
 
+        function add_carrinho(){
+            if (contador < 99 ){
+                contador++;
+                
+            }
+
+            console.log(contador);
+            
+            document.getElementById("numero_do_contador").innerHTML =  contador;
+        }
+
+       
+    </script>
 
 
 
