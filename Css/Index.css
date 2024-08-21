@@ -35,3 +35,19 @@ float: right;
     display: flex;
     justify-content: space-around;
 }
+
+.distanciaaltura{
+  margin-top: 5000px;
+}
+
+.fonteideias{
+  font-family: arial;
+  font-size: 40px;
+  background-color: #6E32A6;width: 700px; height: 80px; 
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border-radius: 100px;
+}
