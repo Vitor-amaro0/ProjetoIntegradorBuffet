@@ -1,0 +1,19 @@
+body{
+    font-family: arial;
+    background: #e6e7eb;
+    }
+    
+div{
+    background: #6E32A6;
+    color:#F5F5F5;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 10px ;
+}
+
+.perfil{
+    
+}
