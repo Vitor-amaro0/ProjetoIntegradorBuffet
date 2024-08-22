@@ -63,3 +63,14 @@ float: right;
   border-radius: 50px;
 }
 
+.icon{
+  display: inline-block;
+  font-size: 40px; 
+  
+  cursor: pointer; 
+}
+
+.icon:hover svg{
+  transform: scale(1.2); /* Aumenta o ícone em quantos % voce ecolher */
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
