@@ -34,20 +34,60 @@ float: right;
   .distanciaigual{
     display: flex;
     justify-content: space-around;
-}
+
+  }
 
 .distanciaaltura{
   margin-top: 5000px;
+  
 }
 
 .fonteideias{
   font-family: arial;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #6E32A6;width: 700px; height: 80px; 
   color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 50px;
   border-radius: 100px;
+}
+
+.tamanhoicone{
+  font-size: 40px;
+}
+
+.iconessugestivos{
+  
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+
+}
+
+.icon{
+  display: inline-block;
+  font-size: 40px; 
+  
+cursor: pointer; 
+}
+
+.icon:hover svg{
+  transform: scale(1.2); /* Aumenta o ícone em quantos % voce ecolher */
+  transition: transform 0.3s ease, color 0.3s ease; 
+
+
+
+}
+
+.letras{
+  font-family: arial;
+  font-size: 50px ;
+  margin-left: 150px;
+}
+
+.bordalinha{
+  margin-top: -50px;
+  margin-left: 100px ;
 }
