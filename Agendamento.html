@@ -14,6 +14,9 @@
 
 
         <!-- Aqui vai mostrar os agendamentos já feitos no dia -->
+
+
+        <div class="container">
         
        
         <h1 class="cor-principal centralizar" ><i class="fa-regular fa-calendar-days" style="color: #F5F5F5; margin-right: 15px;"></i>Agendamentos</h1>
@@ -22,7 +25,8 @@
           <!--Parte não possuindo agendamento-->
 
          
-        <div>  
+       
+          
         Não possui agendamento para esse dia
         </br>
     
@@ -44,7 +48,8 @@
         </br>
         Possui agendamento disponível para esse horário
         
-        </div>
+          
+        
 
         <!-- A parte de agendamentos irá ser colocada ao lado da de Local e Horário -->
 
@@ -56,9 +61,9 @@
 
         <!-- Aqui o cliente irá colocar o endereço do evento -->
 
-        <form onsubmit="enviaFormulario(event)"> 
+        <form  class="reset-form" onsubmit="enviaFormulario(event)"> 
 
-        <div>
+        
 
         <input placeholder="Rua" class="input-text novo" required  name="rua"/> 
         
@@ -111,20 +116,11 @@
        
 
         
-            
+            <span>
             <button class="button-space">Voltar</button>
-        
-      
-
-       
-
-       
-
             <button>Próximo</button>
-
-        
-
-        </div>
+            </span>
+            </div>
         
  
         </form>
