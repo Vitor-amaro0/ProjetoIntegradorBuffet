@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela inicial</title>
     <link rel="stylesheet" href="./Css/index.css">
-
+    
 
 </head>
     <body>
+       
+    <div>
+    <h1  class="menu"><strong><img class="logo" src="https://placehold.co/300x200" width="50px"> Nome do Buffet</strong>
+    
 
-        <div >
-            <h1  class="menu"><strong><img class="logo" src="https://placeholder.co/300x200" width="50px"> Nome do Buffet</strong> <button class="botao"> <a href="./login.html"><img src="Imagens/user.png" width="50px"></a></button>  
-                <button class="botao"> <a href="./carrinho_projeto.html"><img src="./Imagens/carrinhowhite.pg.png" width="50px"></a></button>
-                <button class="botao"> <a href="./agendamento.html"><img src="./Imagens/calendario.png " width="50px"></a></button>
-            
-            </h1>
-        </div>
+        <button class="botao tamanhoicone icon "> <a href="login.html"><i class="fa-solid fa-user" style="color: #f5f5f5;"></i></a></button>  <!-- Imagem do user--> 
+        <button class="botao tamanhoicone icon "> <a href="Carrinho_projeto.html"><i class="fa-solid fa-cart-shopping" style="color: #f5f5f5;"></i> </a>  </button>  <!--Imagem do carrinho --> 
+        <button class="botao tamanhoicone icon "> <a href="Agendamento.html"><i class="fa-solid fa-calendar-days" style="color: #f5f5f5;"></i></a></button> <!-- Imagem agendamento--> 
+       
+        </h1>
+    </div>
+    
 
-        <div class="gif-container distanciaigual">
+        <div class="gif-container distanciaigual  ">
             <p>
                 <a href="./carrinho_projeto.html">                                                            
                 <video class="borda" autoplay loop muted playsinline width="450" > 
@@ -44,7 +48,60 @@
 
         <hr/>
             
-            <h3>Formas de pagamento</h3>
+        <div>
+
+            <h3 class="fonteideias"> <strong> Sugestões para Festa infatantil :</strong></h3>
+               
+
+        </div >
+            
+        <div > 
+            
+          <strong class="letras"> 
+        <p class="bordalinha"> Decorações :</p>
+          <p>  Heróis : </strong> </p> 
+
+
+        
+        
+
+        <div>
+
+            <a href="Futura" ><img class="iconessugestivos zoom" src="./Imagens/heoris.png" width="500"></i></a>
+            <a href="Futura"><img  class="iconessugestivos zoom"  src="./Imagens/princesas.png" width="500"> </a>
+            <a href="Futura"><img class="iconessugestivos zoom" src="./Imagens/Desenhos Infatis.png" width="370"></a>
+            <a href="Futura"><img class="iconessugestivos zoom" src="./Imagens/times.png" width="460"></a>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h3 class="distanciaaltura">Formas de pagamento</h3>
                 <ul>
                     Boleto
                     Pix
@@ -76,5 +133,30 @@
             <img src="https://placehold.co/50" alt="">
 
 
-    </body>
+        </p>
+    </div>
+
+
+    <script>
+        let contador = 0;
+
+        function add_carrinho(){
+            if (contador < 99 ){
+                contador++;
+                
+            }
+
+            console.log(contador);
+            
+            document.getElementById("numero_do_contador").innerHTML =  contador;
+        }
+
+       
+    </script>
+
+
+
+<script src="./css awesome/font-awesome-v6.6.js">  </script>
+
+</body>
 </html>

@@ -16,7 +16,7 @@
         <!-- Aqui vai mostrar os agendamentos já feitos no dia -->
         
        
-        <h1 class="cor-principal centralizar" >Agendamentos</h1>
+        <h1 class="cor-principal centralizar" ><i class="fa-regular fa-calendar-days" style="color: #F5F5F5; margin-right: 15px;"></i>Agendamentos</h1>
 
 
           <!--Parte não possuindo agendamento-->
@@ -52,30 +52,30 @@
         
        
 
-        <p class="Submenus cor-principal">Local e Horário</p>
+        <p class="Submenus cor-principal"><i class="fa-solid fa-location-dot" style="color:#F5F5F5"></i><i class="fa-regular fa-clock" style="color:#F5F5F5; margin-right: 15px;"></i>Local e Horário</p>
 
         <!-- Aqui o cliente irá colocar o endereço do evento -->
 
-        <forms> 
+        <form onsubmit="enviaFormulario(event)"> 
 
         <div>
 
-        <input placeholder="Rua" class="input-text novo" required/> 
+        <input placeholder="Rua" class="input-text novo" required  name="rua"/> 
         
         <br/>
         <br/>
 
-        <input type="number" placeholder="Número"class="input-short"required/> 
+        <input type="number" placeholder="Número"class="input-short"required name="numero"/> 
 
         <br/>
         <br/>
 
-        <input placeholder="Bairro" class="input-text" required/> 
+        <input placeholder="Bairro" class="input-text" required name="bairro"/> 
         
         <br/>
         <br/>
         
-        <input placeholder="Cidade" class="input-text" required/>
+        <input placeholder="Cidade" class="input-text" required name="cidade"/>
 
         <!-- Vai ser adicionado no futuro o busca cep com os dados dos correios -->
        
@@ -83,21 +83,21 @@
 
         <p>Data do Evento: </p>
         
-        <input type="date"required/>
+        <input type="date"required name="data"/>
 
         <br/>
         <br/>
 
         <p>Horário: </p>
 
-        <input type="time"required/>
+        <input type="time"required name="horario"/>
         
         <br/>
         <br/>
 
         <p>Duração:</p>
 
-        <input type="time"required/>
+        <input type="time"required name="duracao"/>
 
         
 
@@ -110,32 +110,61 @@
         
        
 
-        <a href="#"> 
+        
             
             <button class="button-space">Voltar</button>
         
-        </a>
+      
 
        
 
-        <a href="#">
+       
 
             <button>Próximo</button>
 
-        </a>
+        
 
         </div>
         
  
-        
-    
+        </form>
 
+        <script src="./css awesome/font-awesome-v6.6.js"></script>
 
+        <script>
+          function enviaFormulario(e){
 
+            e.preventDefault();
 
+            const agendamento ={
+              rua:"",
+              numero:"",
+              bairro:"",
+              cidade:"",
+              data:"",
+              horario:"",
+              duracao:"",
+                
+            };
 
+            agendamento.rua=e.target.rua.value;
+            agendamento.numero=e.target.numero.value;
+            agendamento.bairro=e.target.bairro.value;
+            agendamento.cidade=e.target.cidade.value;
+            agendamento.data=e.target.data.value;
+            agendamento.horario=e.target.horario.value;
+            agendamento.duracao=e.target.duracao.value;
 
-        </forms>
+            console.log(agendamento.rua);
+            console.log(agendamento.numero);
+            console.log(agendamento.bairro);
+            console.log(agendamento.cidade);
+            console.log(agendamento.data);
+            console.log(agendamento.horario);
+            console.log(agendamento.duracao);
+            }
+
+          </script>
     
 </body>
 </html>
