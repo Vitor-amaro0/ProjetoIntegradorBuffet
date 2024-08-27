@@ -15,7 +15,7 @@ body{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 800px;
+    width: 1000px;
     text-align: center;
 }
 
@@ -79,7 +79,8 @@ div{
     width: 100px;
     position: relative;
     left: 100px;
-    display: inline-block;
+    display: flex;
+    text-align: center;
 }
 
 .reset-form {
@@ -100,6 +101,3 @@ input [type="date"]
     box-sizing: border-box;
 }
 
-span{
-    align-items: center;
-}
