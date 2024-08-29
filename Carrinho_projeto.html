@@ -60,7 +60,7 @@
 
     <button class="cancelar">Cancelar</button>
 
-    <button onclick='maisCadeiras()'>Adicaionar</button>
+    <button onclick='maisCadeiras()'>Adicionar</button>
     <button onclick='menosCadeiras()'>Diminuir</button>
 
     <hr class="carrinho">
@@ -95,8 +95,10 @@
             if(contador > 0){
 
                 contador--;
+                total = contador * precoCoxinha;
                 console.log(contador);
                 document.getElementById("quant.").innerHTML = contador;
+                document.getElementById("preco").innerHTML = total;
             }
 
                 
