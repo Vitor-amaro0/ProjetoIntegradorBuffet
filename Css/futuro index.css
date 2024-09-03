@@ -47,11 +47,26 @@ body{
     transition: background-color 0.5s ease, color 0.5s ease;
     font-size: 20px;
     background-color: #f0f1f1;
-    
-    
+    size: 150px;
+    height: 60px;
+    width: auto;
+    border-radius: 150px;
+   
 }
 
 .persobtn:hover {
     background-color: #6E32A6; /* Muda a cor de fundo para roxo */
     color: white; /* Opcional: muda a cor do texto para branco para melhor contraste */
     cursor: pointer; }
+
+    .margin{
+
+        margin-left: 800px;
+        text-decoration: unset;
+    }
+
+    .marginbtn{
+
+        margin: 30px;
+
+    }
