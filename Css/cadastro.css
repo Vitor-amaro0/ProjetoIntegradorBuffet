@@ -1,5 +1,4 @@
 body{
-    
     background-color: #F5F5F5;
     margin-top:0;
     font-family:arial
@@ -11,12 +10,12 @@ h1{
     font-size: 50px;
     background-color:#6E32A6;
     margin-top: 0px;
-    border-radius: 8px;
+    border-radius: 10px;
     color: #F5F5F5;
     margin-bottom: 30px;
+   
     
-    }
-
+}
 
 
 div{
@@ -30,7 +29,7 @@ div{
 }
     
 .letramenor{
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .button{
@@ -39,6 +38,8 @@ div{
     color: #F5F5F5;;
     border: none;
     font-size: 21px;
+    border: none;
+    border-radius: 200px;
 }
 
 
