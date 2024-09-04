@@ -55,8 +55,8 @@ body{
 }
 
 .persobtn:hover {
-    background-color: #6E32A6; /* Muda a cor de fundo para roxo */
-    color: white; /* Opcional: muda a cor do texto para branco para melhor contraste */
+    background-color: #6E32A6; 
+    color: white;
     cursor: pointer; }
 
     .margin{
@@ -92,11 +92,73 @@ body{
     }
 
     .letraroxa2{
-        color: #6E32A6;
-
+        color: black;
         margin-top: -500px;
         margin-right: 00px;
         font-size: 50px;
         font-family: arial;
     }
+
+    .letraroxa2:hover{
+
+        color: white;
+        animation: changeBackground 4s infinite;
+    }
+ 
     
+
+    .background-slider {
+        position: relative;
+        width: 104.45%;
+        height: 700px; 
+        background-image: url('./Mesafinal.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        margin-left: -80px;        
+        background-size: cover;
+        background-position: center;
+        animation: changeBackground 4s infinite;
+    }
+    
+    
+    @keyframes changeBackground {
+        0% {
+            background-image: url('./Mesafinal.jpg');
+        }
+        50% {
+            background-image: url('mesas.jpg');
+        }
+        100% {
+            background-image: url('Mesafinal.jpg');
+        }
+    }
+
+
+
+    .text {
+        
+        margin-top: -500px;
+        margin-right: 00px;
+        font-family: arial;
+        color: white; 
+        font-size: 70px;
+        animation: changeTextColor 4s infinite; 
+    }
+
+    @keyframes changeTextColor {
+        0% {
+            color: black; 
+        }
+        50% {
+            color: papayawhip; 
+        }
+        100% {
+            color: black; 
+        }
+    }
