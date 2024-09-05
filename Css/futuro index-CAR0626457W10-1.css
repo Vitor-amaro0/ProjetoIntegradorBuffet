@@ -1,0 +1,164 @@
+.fundoroxo{
+background-color:#6E32A6 ;
+color: #f0f1f1;
+display: flex; 
+margin-right: auto;
+padding: 15px;
+}
+
+.distpalavras{
+
+    margin-left: 150px;
+    font-family: arial;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #f0f1f1;
+}
+
+.dist1{
+    margin-left: 10px;
+}
+
+.dist2{
+
+    margin-left: 400px;
+}
+
+.bordaredonda{
+    border-radius: 300px;
+}
+
+.fundobranco{
+
+    background-color: #f0f1f1;
+}
+
+.letraroxa{
+    color: #6E32A6;
+    padding-left: 80px;
+}
+
+.persobtn{
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: 20px;
+    background-color: #f0f1f1;
+    size: 150px;
+    height: 60px;
+    width: auto;
+    border-radius: 150px;
+   
+}
+
+.persobtn:hover {
+    background-color: #6E32A6; 
+    color: white;
+    cursor: pointer; }
+
+    .margin{
+
+        margin-left: 750px;
+        text-decoration: unset;
+    }
+
+    .marginbtn{
+
+        margin: 30px;
+
+    }
+
+    .marginimg{
+
+        margin-left: -80px;
+    }
+
+    .background {
+        width: 104.45%;
+        height: 700px; 
+        background-image: url('./Mesafinal.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        margin-left: -80px;
+    }
+
+    .letraroxa2{
+        color: black;
+        margin-top: -500px;
+        margin-right: 00px;
+        font-size: 50px;
+        font-family: arial;
+    }
+
+    .letraroxa2:hover{
+
+        color: white;
+        animation: changeBackground 4s infinite;
+    }
+ 
+    
+
+    .background-slider {
+        position: relative;
+        width: 104.45%;
+        height: 700px; 
+        background-image: url('./Mesafinal.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        margin-left: -80px;        
+        background-size: cover;
+        background-position: center;
+        animation: changeBackground 4s infinite;
+    }
+    
+    
+    @keyframes changeBackground {
+        0% {
+            background-image: url('./Mesafinal.jpg');
+        }
+        50% {
+            background-image: url('mesas.jpg');
+        }
+        100% {
+            background-image: url('Mesafinal.jpg');
+        }
+    }
+
+
+
+    .text {
+        
+        margin-top: -500px;
+        margin-right: 00px;
+        font-family: arial;
+        color: white; 
+        font-size: 70px;
+        animation: changeTextColor 4s infinite; 
+    }
+
+    @keyframes changeTextColor {
+        0% {
+            color: black; 
+        }
+        50% {
+            color: papayawhip; 
+        }
+        100% {
+            color: black; 
+        }
+    }
